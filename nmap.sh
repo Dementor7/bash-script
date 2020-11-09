@@ -26,7 +26,7 @@ read option
 
 if [ $option == 1 ]
 then
-	nmap -uT $ip -vv
+	nmap -sT $ip -vv
 elif [ $option == 2 ]
 then
 	nmap -sC -sV $ip -vv
